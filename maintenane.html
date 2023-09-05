@@ -1,0 +1,49 @@
+<html>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      position: absolute;
+      top: 30%;
+      left: 30%;
+      background-color: white;
+      border: solid 1px grey;
+      border-radius: 10px;
+      width: 35%;
+      height: 35%;
+    }
+    .maintenance_block {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      gap: 50px;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <svg
+      viewBox="0 0 16 16"
+      xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="xMidYMid slice"
+      position="absolute"
+      width="100%"
+      height="100%"
+      zIndex="hide"
+    >
+      <rect x="10.5" y="1" width="8" height="8" rx="1.25" fill="#51DDD3" transform="rotate(-45 14.5 5)"></rect>
+      <rect x="5" y="-3" width="6" height="6" rx="1.25" fill="#79B7EE" transform="rotate(-45 8 0)"></rect>
+      <rect x="-2" y="0.5" width="6" height="6" rx="1.25" fill="#0D3C61" transform="rotate(-45 1 3.5)"></rect>
+      <rect x="-2" y="7.5" width="11" height="4" rx="1.25" fill="#CAE3EB" transform="rotate(-45 3.5 9.5)"></rect>
+      <rect x="7.5" y="9.25" width="5" height="5" rx="1.25" fill="#79B7EE" transform="rotate(-45 10 11.75)"></rect>
+    </svg>
+    <div class="container">
+      <div class="maintenance_block">
+        <img src="https://cms-treckea.s3.eu-west-1.amazonaws.com/teamzy_23bf70c54d.png" />
+        <p>Page en maintenance</p>
+      </div>
+    </div>
+  </body>
+</html>
